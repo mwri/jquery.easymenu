@@ -1,0 +1,83 @@
+/* easymenu main css */
+
+table.easym_menu {
+	display: table;
+	position: absolute;
+	padding: 0.1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+table.easym_menu > tbody > tr.easym_action:hover {
+	cursor: pointer;
+	cursor: hand;
+}
+
+table.easym_menu > tbody > tr > td {
+	text-decoration: none;
+	padding: 0.2em;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+table.easym_menu > tbody > tr > td > img {
+	display: block;
+}
+
+tr.easym_separator hr {
+	margin: 0.2em 0 0.2em 0;
+}
+
+.easym_icon {
+	text-align: center;
+}
+
+div.easym_background_click_capture {
+	position: absolute;
+	zIndex: 9999;
+	top: 0;
+	left: 0;
+}
+
+.easym_submenu_icon {
+	margin-left: 0.4em;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAUCAYAAACu0kzYAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4QgWDBwCVa3kEAAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAAARklEQVQY072RSQ4AIAgDp/z/z/UkccGLJnKcSWkIsk01wWEuhCQfE5XMVaucOka5lXcpwO932FZUcEt0OIkRplghgD78owE76BsfqpuZ7AAAAABJRU5ErkJggg==);
+	width: 6px;
+	height: 20px;
+}
+
+.easym_icon {
+	display: block;
+	text-decoration: none;
+}
+
+
+/* easymenu look and feel css */
+
+table.easym_menu {
+	background-color: #f0f0f0;
+	border: 1px solid #a0a0a0;
+}
+
+table.easym_menu > tbody > tr.easym_action:hover {
+	background-color: #d0d0d0;
+}
+
+table.easym_menu > tbody > tr > td {
+	color: #202020;
+}
+
+tr.easym_separator hr {
+	border-color: #d0d0d0;
+}
+
+table.easym_menu > tbody > tr.easym_header > td {
+	background: #303030;
+	color: #f0f0f0;
+}
