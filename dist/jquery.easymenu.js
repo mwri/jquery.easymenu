@@ -1,4 +1,4 @@
-// Package: jquery.easymenu v1.0.0 (built 2017-08-23 10:12:25)
+// Package: jquery.easymenu v1.0.1 (built 2017-08-25 10:09:05)
 // Copyright: (C) 2017 Michael Wright <mjw@methodanalysis.com>
 // License: MIT
 
@@ -220,7 +220,7 @@
 			let this_menu = this;
 
 			let background = $('<div id="easym_background_click_capture"/>')
-				.css({ position: 'absolute', top: 0, left: 0, width: $('body').width(), height: $('body').height() })
+				.css({ position: 'fixed', top: 0, left: 0, width: $('body').width(), height: $('body').height() })
 				.on('contextmenu click', function () {
 					jqp_method(this_menu, ['hide']);
 					return false;

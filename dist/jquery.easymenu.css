@@ -2,7 +2,7 @@
 
 table.easym_menu {
 	display: table;
-	position: absolute;
+	position: fixed;
 	padding: 0.1em;
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -39,7 +39,7 @@ tr.easym_separator hr {
 }
 
 div.easym_background_click_capture {
-	position: absolute;
+	position: fixed;
 	zIndex: 9999;
 	top: 0;
 	left: 0;
